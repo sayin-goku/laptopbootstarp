@@ -1,0 +1,402 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+        crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
+    -->
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="icon" type="image/x-icon" href="https://i.pinimg.com/564x/51/fb/31/51fb3186d1a6a31e4b4fcf8466e5dc93.jpg">
+    <link rel="stylesheet" href="my lap.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Signika+Negative&display=swap" rel="stylesheet">
+    <title>Ammar007</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark  bg-dark " id="mynav">
+        <a class="navbar-brand" href="#">
+            <img src="https://static.vecteezy.com/system/resources/thumbnails/024/570/779/small/anime-minimalist-and-flat-logo-illustration-vector.jpg"
+                width="40" height="40" alt="">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse nave" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">About</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown"
+                        aria-expanded="false">
+                        Dropdown
+                    </a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact us</a>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+            <div class=" mx-1">
+                <button class="btn btn-danger" data-target="#exampleModal" data-toggle="modal">Sign up</button>
+            </div>
+        </div>
+    </nav>
+    <!-- ----- This is a modal----->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title text-danger " id="exampleModalLabel">Welcome in our site.</h3>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form class="mdform">
+                        <div class="form-row">
+                            <div class="form-group col-md-6">
+                                <label for="">Name</label>
+                                <input type="text" class="form-control" id="" required>
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label for="">Email</label>
+                                <input type="email" class="form-control" id="" required>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group col-md-6">
+                                <label for="">Password</label>
+                                <input type="text" minlength="8" class="form-control" id="" required>
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label for="">Confrim pass</label>
+                                <input type="text" class="form-control" id="">
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group col-md-6">
+                                <label for="">Country</label>
+                                <input type="text" class="form-control" id="" required>
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label for="">City</label>
+                                <input type="text" class="form-control " required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" id="gridCheck" required>
+                                <label class="form-check-label" for="gridCheck">
+                                    Check me out
+                                </label>
+                            </div>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Sign in</button>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="carouselExampleCaptions" class="carousel slide carousel-fade " data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-interval="2000">
+                <img src="peakpx 3.jpg" height="300" class="d-block w-100" alt="Image remove from net">
+                <div class="carousel-caption  d-md-block">
+                    <h2>Welcome in Ammar site</h2>
+                </div>
+            </div>
+            <div class="carousel-item" data-interval="2000">
+                <img src="peakpx (1) (1).jpg" height="300" class="d-block w-100" alt="Image remove from net">
+                <div class="carousel-caption  d-md-block">
+                    <h5>Second slide label</h5>
+
+                </div>
+            </div>
+            <div class="carousel-item" data-interval="2000">
+                <img src="peakpx (2).jpg" height="300" class="d-block w-100" alt="Image remove from net">
+                <div class="carousel-caption  d-md-block">
+                    <h5>Third slide label</h5>
+
+                </div>
+            </div>
+
+            <div class="carousel-item" data-interval="2000">
+                <img src="peakpx 8.jpg" height="300" class="d-block w-100" alt="Image remove from net">
+                <div class="carousel-caption  d-md-block">
+                    <h5>Forth slide label</h5>
+
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-target="#carouselExampleCaptions" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-target="#carouselExampleCaptions" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </button>
+    </div>
+
+    <div class="container my-4">
+        <div class="row mb-2">
+            <div class="col-md-6">
+                <div
+                    class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 box-sh h-md-250 position-relative">
+                    <div class="col p-4 d-flex flex-column position-static">
+                        <strong class="d-inline-block mb-2 text-primary">Apple</strong>
+                        <h3 class="mb-0">Ammar</h3>
+                        <div class="mb-1 text-muted">Dec 11</div>
+                        <p class="card-text mb-auto">"MacBook: Sleek design, powerful performance, intuitive interface,
+                            reliable hardware,
+                            and seamless integration for creative work and daily use."</p>
+                    </div>
+                    <div class="col-auto  d-sm-block">
+                        <img src="peakpx (4).jpg" alt="" height="261" width="240">
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div
+                    class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 box-sh  h-md-250 position-relative">
+                    <div class="col p-4 d-flex flex-column position-static">
+                        <strong class="d-inline-block mb-2 text-success">Apple</strong>
+                        <h3 class="mb-0">This is a future</h3>
+                        <div class="mb-1 text-muted">Dec 11</div>
+                        <p class="mb-auto">"MacBook: Exquisite craftsmanship, top-notch performance, stylish design—a
+                            perfect ally for creativity, productivity, and everyday functionality."
+                        </p>
+                    </div>
+                    <div class="col-auto  d-sm-block">
+                        <img src="peakpx (5).jpg" alt="" height="261" width="240">
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div
+                    class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 box-sh  h-md-250 position-relative">
+                    <div class="col p-4 d-flex flex-column position-static">
+                        <strong class="d-inline-block mb-2 text-success">Apple</strong>
+                        <h3 class="mb-0">Write</h3>
+                        <div class="mb-1 text-muted">Dec 11</div>
+                        <p class="mb-auto">This is a wider card with supporting text below as a natural lead-in to
+                            additional content.</p>
+                    </div>
+                    <div class="col-auto  d-sm-block">
+                        <img src="peakpx 6.jpg" alt="" height="261" width="240">
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div
+                    class="row no-gutters border rounded overflow-hidden flex-md-row mb-4  h-md-250 position-relative box-sh">
+                    <div class="col p-4 d-flex flex-column position-static">
+                        <strong class="d-inline-block mb-2 text-danger ">Apple</strong>
+                        <h3 class="mb-0">Learn</h3>
+                        <div class="mb-1 text-muted">Dec 11</div>
+                        <p class="mb-auto">This is a wider card with supporting text below as a natural lead-in to
+                            additional content.</p>
+                    </div>
+                    <div class="col-auto  d-sm-block">
+                        <img src="peakpx 7.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <main role="main" class="container mb-4">
+        <div class="row">
+            <div class="col-md-8 blog-main">
+                <h3 class="pb-4 mb-4 font-italic border-bottom">
+                    From the Firehose
+                </h3>
+
+                <div class="blog-post">
+                    <h2 class="blog-post-title">Sample blog post</h2>
+                    <p class="blog-post-meta">Dec 18, 2023 by <a href="#">Ammar</a></p>
+
+                    <p>This blog post shows a few different types of content that’s supported and styled with Bootstrap.
+                        Basic typography, images, and code are all supported.</p>
+                    <hr>
+                    <p>Yeah, she dances to her own beat. Oh, no. You could've been the greatest. 'Cause, baby, <a
+                            href="#">you're a firework</a>. Maybe a reason why all the doors are closed. Open up your
+                        heart and just let it begin. So très chic, yeah, she's a classic.</p>
+                    <blockquote>
+                        <p>Bikinis, zucchinis, Martinis, no weenies. I know there will be sacrifice but that's the
+                            price. <strong>This is how we do it</strong>. I'm not sticking around to watch you go down.
+                            You think you're so rock and roll, but you're really just a joke. I know one spark will
+                            shock the world, yeah yeah. Can't replace you with a million rings.</p>
+                    </blockquote>
+                    <p>Trying to connect the dots, don't know what to tell my boss. Before you met me I was alright but
+                        things were kinda heavy. You just gotta ignite the light and let it shine. Glitter all over the
+                        room <em>pink flamingos</em> in the pool. </p>
+                    <h2>Heading</h2>
+                    <p>Suiting up for my crowning battle. If you only knew what the future holds. Bring the beat back.
+                        Peach-pink lips, yeah, everybody stares.</p>
+                    <h3>Sub-heading</h3>
+                    <p>You give a hundred reasons why, and you say you're really gonna try. Straight stuntin' yeah we do
+                        it like that. Calling out my name. ‘Cause I, I’m capable of anything.</p>
+                    <pre><code>Example code block</code></pre>
+                    <p>Before you met me I was alright but things were kinda heavy. You just gotta ignite the light and
+                        let it shine.</p>
+                    <h3>Sub-heading</h3>
+                    <p>You got the finest architecture. Passport stamps, she's cosmopolitan. Fine, fresh, fierce, we got
+                        it on lock. Never planned that one day I'd be losing you. She eats your heart out.</p>
+                    <ul>
+                        <li>Got a motel and built a fort out of sheets.</li>
+                        <li>Your kiss is cosmic, every move is magic.</li>
+                        <li>Suiting up for my crowning battle.</li>
+                    </ul>
+                    <p>Takes you miles high, so high, 'cause she’s got that one international smile.</p>
+                    <ol>
+                        <li>Scared to rock the boat and make a mess.</li>
+                        <li>I could have rewrite your addiction.</li>
+                        <li>I know you get me so I let my walls come down.</li>
+                    </ol>
+                    <p>After a hurricane comes a rainbow.</p>
+                </div><!-- /.blog-post -->
+
+                <div class="blog-post">
+                    <h2 class="blog-post-title">Another blog post</h2>
+                    <p class="blog-post-meta">December 15, 2023 by <a href="#">ABD</a></p>
+
+                    <p>I am ready for the road less traveled. Already <a href="#">brushing off the dust</a>. Yeah,
+                        you're lucky if you're on her plane. I used to bite my tongue and hold my breath. Uh, She’s a
+                        beast. I call her Karma (come back). Black ray-bans, you know she's with the band. I can't sleep
+                        let's run away and don't ever look back, don't ever look back.</p>
+                    <blockquote>
+                        <p>Growing fast into a <strong>bolt of lightning</strong>. Be careful Try not to lead her on</p>
+                    </blockquote>
+                    <p>I'm intrigued, for a peek, heard it's fascinating. Oh oh! Wanna be a victim ready for abduction.
+                        She's got that international smile, oh yeah, she's got that one international smile. Do you ever
+                        feel, feel so paper thin. I’m gon’ put her in a coma. Sun-kissed skin so hot we'll melt your
+                        popsicle.</p>
+                    <p>This is transcendental, on another level, boy, you're my lucky star.</p>
+                </div><!-- /.blog-post -->
+
+                <div class="blog-post">
+                    <h2 class="blog-post-title">New feature</h2>
+                    <p class="blog-post-meta">December 16, 2023 by <a href="#">Sir</a></p>
+
+                    <p>From Tokyo to Mexico, to Rio. Yeah, you take me to utopia. I'm walking on air. We'd make out in
+                        your Mustang to Radiohead. I mean the ones, I mean like she's the one. Sun-kissed skin so hot
+                        we'll melt your popsicle. Slow cooking pancakes for my boy, still up, still fresh as a Daisy.
+                    </p>
+                    <ul>
+                        <li>I hope you got a healthy appetite.</li>
+                        <li>You're never gonna be unsatisfied.</li>
+                        <li>Got a motel and built a fort out of sheets.</li>
+                    </ul>
+                    <p>Don't need apologies. Boy, you're an alien your touch so foreign, it's supernatural,
+                        extraterrestrial. Talk about our future like we had a clue. I can feel a phoenix inside of me.
+                    </p>
+                </div><!-- /.blog-post -->
+
+                <nav class="blog-pagination">
+                    <a class="btn btn-outline-primary" href="#">Older</a>
+                    <a class="btn btn-outline-secondary disabled">Newer</a>
+                </nav>
+
+            </div><!-- /.blog-main -->
+
+            <aside class="col-md-4 blog-sidebar">
+                <div class="p-4 mb-3 bg-light rounded">
+                    <h4 class="font-italic">About</h4>
+                    <p class="mb-0">Saw you downtown singing the Blues. Watch you circle the drain. Why don't you let me
+                        stop by? Heavy is the head that <em>wears the crown</em>. Yes, we make angels cry, raining down
+                        on earth from up above.</p>
+                </div>
+
+                <div class="p-4">
+                    <h4 class="font-italic">Archives</h4>
+                    <ol class="list-unstyled mb-0">
+                        <li><a href="#">March 2014</a></li>
+                        <li><a href="#">February 2014</a></li>
+                        <li><a href="#">January 2014</a></li>
+                        <li><a href="#">December 2013</a></li>
+                        <li><a href="#">November 2013</a></li>
+                        <li><a href="#">October 2013</a></li>
+                        <li><a href="#">September 2013</a></li>
+                        <li><a href="#">August 2013</a></li>
+                        <li><a href="#">July 2013</a></li>
+                        <li><a href="#">June 2013</a></li>
+                        <li><a href="#">May 2013</a></li>
+                        <li><a href="#">April 2013</a></li>
+                    </ol>
+                </div>
+
+                <div class="p-4">
+                    <h4 class="font-italic">Elsewhere</h4>
+                    <ol class="list-unstyled">
+                        <li><a href="#">GitHub</a></li>
+                        <li><a href="https://twitter.com">Twitter</a></li>
+                        <li><a href="https://www.facebook.com/">Facebook</a></li>
+                    </ol>
+                </div>
+                <div>
+
+                </div>
+            </aside><!-- /.blog-sidebar -->
+
+        </div><!-- /.row -->
+
+    </main>
+
+    <footer class="container">
+        <p class="float-right"><a href="">Back to top</a></p>
+        <p>© 2017-2022 Company, Inc. · <a href="#">Privacy</a> · <a href="#">Terms</a></p>
+    </footer>
+
+</body>
+
+</html>

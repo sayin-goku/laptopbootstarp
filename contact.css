@@ -1,0 +1,12 @@
+.container{
+    background-color: rgb(241, 245, 248);
+    box-shadow: 4px 3px 6px rgb(182, 179, 179);
+}
+
+label{
+    font-weight: 600;
+}
+.mybt:hover{
+  background-color: crimson;
+  border: none;
+}
